@@ -1,9 +1,9 @@
-public class MainLemonade {
+public class Lemonade {
 
     public static void main(String[] args){
         Instructions show = new Instructions();
 
-        show.Instructions("start");
+        show.printInstructions();
 
 
 

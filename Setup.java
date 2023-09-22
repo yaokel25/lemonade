@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
 public class Setup{
-    double lemon;
-    double cup;
-    double ice;
-    double sugar;
-    double budget;
+    private double lemon;
+    private double cup;
+    private double ice;
+    private double sugar;
+    private double budget;
+
+    public double Budget(){
     System.out.println("How many cups? ($0.01 each)");
     cup = scan.nextLine();
     System.out.println("How many lemons? ($0.10 each)");
@@ -14,8 +16,9 @@ public class Setup{
     ice = scan.nextLine();
     System.out.println("How much sugar? ($0.25 each)");
     sugar = scan.nextLine();
+    }
 
-    budget = 20 - (0.01*cup) - ()
+    budget = 20 - (0.01*cup) - (0.1*lemon) - (0.01*ice) - (0.25*sugar);
 
 
 }
